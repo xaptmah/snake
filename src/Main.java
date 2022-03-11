@@ -12,6 +12,22 @@ public class Main {
         System.out.print(main.printPosition(x1,y1,sym1));
         System.out.println(main.printPosition(x2,y2-y1,sym2));
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
     public String printPosition(int x,int y, char sym){
 
