@@ -1,32 +1,19 @@
 public class Main {
     public static void main(String[] args) {
-        int x1 = 12;
-        int y1 = 3;
-        char sym1 = '*';
+        Point point1 = new Point();
+        Point point2 = new Point();
 
-        int x2 = 12;
-        int y2 = 4;
-        char sym2 ='#';
+        point1.x = 12;
+        point1.y = 3;
+        point1.sym = '*';
+
+        point2.x = 12;
+        point2.y = 4;
+        point2.sym ='#';
 
         Main main = new Main();
-        System.out.print(main.printPosition(x1,y1,sym1));
-        System.out.println(main.printPosition(x2,y2-y1,sym2));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        System.out.print(main.printPosition(point1.x, point1.y, point1.sym));
+        System.out.println(main.printPosition(point2.x, point2.y - point1.y, point2.sym));
 
     }
     public String printPosition(int x,int y, char sym){
